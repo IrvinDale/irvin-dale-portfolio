@@ -15,7 +15,8 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
         After graduating with an advanced diploma in{" "}
-        <span className="font-medium">Software Engineering Technology</span>, I
+        <span className="font-medium">Software Engineering Technology </span>{" "}
+        from <span className="font-medium">Centennial College</span>, I I
         decided to pursue my passion for programming. I continued learning{" "}
         <span className="font-medium">Front-End Development </span>especially in{" "}
         <span className="font-medium">React</span>.{" "}
@@ -26,8 +27,8 @@ export default function About() {
         <span className="font-medium">
           React, React Native, Node.js, and Next.js
         </span>
-        . I am also familiar with TypeScript and MySQL. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        . I am also familiar with TypeScript. I am always looking to learn new
+        technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
