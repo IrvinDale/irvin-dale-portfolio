@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none 
-          focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer border border-black/10"
+          focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer borderBlack"
           href="/CV.pdf"
           download={true}
         >
@@ -102,7 +102,7 @@ export default function Intro() {
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full 
           focus:scale-[1.15] hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer 
-          border border-black/10"
+          borderBlack"
           href="https://www.linkedin.com/in/irvin-dale-santos/"
           target="_blank"
         >
@@ -112,7 +112,7 @@ export default function Intro() {
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]
         focus:scale-[1.15] hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer
-         border border-black/10"
+        borderBlack"
           href="https://github.com/IrvinDale"
           target="_blank"
         >
