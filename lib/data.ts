@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { MdWeb } from "react-icons/md";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -44,7 +45,7 @@ export const experiencesData = [
     location: "Vaughan, ON",
     description:
       "I worked as a Web Developer for 8 months focusing on WordPress Development and React Native Webview Wrapping development.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(MdWeb),
     date: "2023",
   },
   {
@@ -62,6 +63,14 @@ export const experiencesData = [
       "I worked as a Software Developer for 11 months focusing on React.js Front-End Development and React Native on backend development.",
     icon: React.createElement(FaReact),
     date: "2021 - 2022",
+  },
+  {
+    title: "Graduated Software Engineering",
+    location: "Scarborough, ON",
+    description:
+      "I graduated after 3 years of studying Software Engineering Technology with advanced diploma from Centennial College.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
   },
 ] as const;
 
