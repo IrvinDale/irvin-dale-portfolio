@@ -42,7 +42,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Web Developer",
-    location: "Vaughan, ON",
+    location: "Merit Immigration - Vaughan, ON",
     description:
       "I worked as a Web Developer for 8 months focusing on WordPress Development and React Native Webview Wrapping development.",
     icon: React.createElement(MdWeb),
@@ -50,7 +50,7 @@ export const experiencesData = [
   },
   {
     title: "Software Developer",
-    location: "Mississauga, ON",
+    location: "Telemed MD - Mississauga, ON",
     description:
       "I worked as a Software Developer for 10 months on a contract focusing on React.js Front-End Development and React with Node.js on backend development.",
     icon: React.createElement(CgWorkAlt),
@@ -58,7 +58,7 @@ export const experiencesData = [
   },
   {
     title: "Software Developer",
-    location: "Scarborough, On",
+    location: "MD Connected - Scarborough, On",
     description:
       "I worked as a Software Developer for 11 months focusing on React.js Front-End Development and React Native on backend development.",
     icon: React.createElement(FaReact),
@@ -66,7 +66,7 @@ export const experiencesData = [
   },
   {
     title: "Graduated Software Engineering",
-    location: "Scarborough, ON",
+    location: "Centennial College - Scarborough, ON",
     description:
       "I graduated after 3 years of studying Software Engineering Technology with advanced diploma from Centennial College.",
     icon: React.createElement(LuGraduationCap),
