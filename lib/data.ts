@@ -3,9 +3,6 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { MdWeb } from "react-icons/md";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 import meritMarketplaceImg from "@/public/MeritMarketplace.png";
 import meritMarketplaceMobileImg from "@/public/MeritMarketplaceMobile.jpg";
@@ -78,27 +75,27 @@ export const projectsData = [
   {
     title: "Merit Immigration Marketplace",
     description:
-      "Users can purchase and send messages to service providers, register and list services as services prvoider.",
+      "Users can purchase and send messages to service providers, register and list services as services provider.",
     tags: ["WordPress", "HTML", "CSS"],
     imageUrl: meritMarketplaceImg,
   },
   {
     title: "Merit Immigration Marketplace Webview Mobile App",
     description:
-      " Users can download the mobile app of the Merit Immigration Marketplace access all site functionalites and more",
+      " Users can download the mobile app of the Merit Immigration Marketplace access all site functionalites and more.",
     tags: ["React Native", "JavaScript", "CSS"],
     imageUrl: meritMarketplaceMobileImg,
   },
   {
     title: "MD Connected Web Chatting Tool",
     description:
-      "A chatting tool that allows users to register/login, send direct messages, create public and private channels",
+      "A chatting tool that allows users to register/login, send direct messages, create public and private channels.",
     tags: ["React", "HTML", "CSS", "JavaScript", "Node.js", "TypeScript"],
     imageUrl: mdcWebImg,
   },
   {
     title: "MD Connected Mobile Chatting App",
-    description: "A React Native version of the ",
+    description: "A React Native version of the MD Connected Web Chating Tool.",
     tags: ["React Native", "CSS", "JavaScript", "Node.js", "TypeScript"],
     imageUrl: mdcMobileImg,
   },
