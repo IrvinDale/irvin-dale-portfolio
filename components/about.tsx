@@ -21,8 +21,8 @@ export default function About() {
       <p className="mb-3">
         After graduating with an advanced diploma in{" "}
         <span className="font-medium">Software Engineering Technology </span>{" "}
-        from <span className="font-medium">Centennial College</span>, I I
-        decided to pursue my passion for programming. I continued learning{" "}
+        from <span className="font-medium">Centennial College</span>, I decided
+        to pursue my passion for programming. I continued learning{" "}
         <span className="font-medium">Front-End Development </span>especially in{" "}
         <span className="font-medium">React</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
