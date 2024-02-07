@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import irvinImg from "@/public/irvin-photo.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/C4E03AQFBxj62jlVVng/profile-displayphoto-shrink_800_800/0/1613495794135?e=1706745600&v=beta&t=dT0ID7Cohd_g9gwRZ0AtN4lMX48e6IKNvq2aJbHXH_4"
+              src={irvinImg}
               alt="Irvin Dale portrait"
               width="192"
               height="192"
