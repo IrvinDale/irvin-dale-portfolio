@@ -8,6 +8,8 @@ import meritMarketplaceImg from "@/public/MeritMarketplace.png";
 import meritMarketplaceMobileImg from "@/public/MeritMarketplaceMobile.jpg";
 import mdcWebImg from "@/public/MDCWeb.png";
 import mdcMobileImg from "@/public/MDCMobile.png";
+import aiChatBotImg from "@/public/ai-chatbot.png";
+import memoryGameImg from "@/public/memory-game.png";
 
 export const links = [
   {
@@ -73,7 +75,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Memory Game",
+    link: "memory-card-game-mu-self.vercel.app",
+    description:
+      "A fun and engaging web application built with React and Vite. This game challenges players to flip cards and find matching pairs with adorable anime images.",
+    tags: ["React", "Vite", "JavaScript", "HTML", "SCSS"],
+    imageUrl: memoryGameImg,
+  },
+  {
+    title: "AI Chatbot",
+    description:
+      "A React-based AI chatbot application that uses the Hugging Face API with the DialoGPT model to provide conversational capabilities. The app also supports speech recognition and text-to-speech functionality.",
+    link: "ai-chatbot-coral-tau.vercel.app",
+    tags: ["React", "JavaScript", "HTML", "CSS"],
+    imageUrl: aiChatBotImg,
+  },
+  {
     title: "Merit Immigration Marketplace",
+    link: "",
     description:
       "Users can purchase and send messages to service providers, register and list services as services provider.",
     tags: ["WordPress", "HTML", "CSS"],
@@ -81,6 +100,7 @@ export const projectsData = [
   },
   {
     title: "Merit Immigration Marketplace Webview Mobile App",
+    link: "",
     description:
       " Users can download the mobile app of the Merit Immigration Marketplace access all site functionalites and more.",
     tags: ["React Native", "JavaScript", "CSS"],
@@ -88,6 +108,7 @@ export const projectsData = [
   },
   {
     title: "MD Connected Web Chatting Tool",
+    link: "",
     description:
       "A chatting tool that allows users to register/login, send direct messages, create public and private channels.",
     tags: ["React", "HTML", "CSS", "JavaScript", "Node.js", "TypeScript"],
@@ -95,6 +116,7 @@ export const projectsData = [
   },
   {
     title: "MD Connected Mobile Chatting App",
+    link: "",
     description: "A React Native version of the MD Connected Web Chating Tool.",
     tags: ["React Native", "CSS", "JavaScript", "Node.js", "TypeScript"],
     imageUrl: mdcMobileImg,
